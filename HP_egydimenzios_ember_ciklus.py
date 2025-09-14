@@ -75,15 +75,15 @@ water = (
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""")
 
 sermon1 = (
-""" HEGYIBESZÉD EGYDIMENZIÓS EMBEREKNEK\n
-    |
+    """ HEGYIBESZÉD EGYDIMENZIÓS EMBEREKNEK\n
+        |
     
     
-                 ||||||||||||""")
+                     ||||||||||||""")
 
 sermon2 = (
-""" HEGYIBESZÉD EGYDIMENZIÓS EMBEREKNEK – FELÜLRŐL\n\n
-    .            ............\n\n""")
+    """ HEGYIBESZÉD EGYDIMENZIÓS EMBEREKNEK – FELÜLRŐL\n\n
+        .            ............\n\n""")
 
 mirror = (
 """ TÜKÖRBENÉZŐ EGYDIMENZIÓS EMBER\n\n
@@ -108,17 +108,21 @@ black_hole2 = (
             C   C   C   C   
               C   C  C""")
 
-last_judgement = (
+last_judgement1 = (
 """ UTOLSÓ ÍTÉLET EGYDIMENZIÓS EMBEREKKEL\n
  |||||||||||\n\n
-                   |||||||||||""")
+            |||||||||||""")
+
+last_judgement2 = (
+""" UTOLSÓ ÍTÉLET EGYDIMENZIÓS EMBEREKKEL – FELÜLRŐL\n\n
+ ......................\n\n""")
 
 output_text_to_center(" EGYDIMENZIÓSEMBER-CIKLUS\n\n\n\n\n"
                       " A továbblépéshez nyomj mindig egy entert.")
 input()
 scenes = [meeting1, skiers, porn, human_centipede, meeting2, dancers, family,
           water, sermon1, sermon2, mirror, cross, grave, black_hole1, black_hole2,
-          last_judgement, "\n\n               VÉGE\n\n"]
+          last_judgement1, last_judgement2, "\n\n               VÉGE\n\n"]
 for scene in scenes:
     output_text_to_center(scene)
     input()

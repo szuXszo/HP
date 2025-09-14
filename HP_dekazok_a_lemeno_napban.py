@@ -46,4 +46,5 @@ for k in range(5):
     output_text_to_center(f"          O{'\n' + ('\n' * k)}O{'\n' * (4 - k)}")
     time.sleep(1)
 output_text_to_center(f"{5 * '\n'}          O")
+time.sleep(2)
 
