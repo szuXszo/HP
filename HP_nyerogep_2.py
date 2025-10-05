@@ -3,7 +3,7 @@ from random import choice
 
 print("NYERŐGÉP 2 – transzgender verzió\n")
 
-print(choice(["arannyal        ", "keserűséggel    ", "hittel          "]),
+print(choice(["gyerekkel       ", "keserűséggel    ", "hittel          "]),
       choice(["érkezik         ", "távozik         "]),
       choice(["a kórteremből   ", "a lakásodból    ", "a miséről       "]))
 
