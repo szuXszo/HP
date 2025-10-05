@@ -1,7 +1,7 @@
 from random import choice
 
 
-print("NYERŐGÉP 1\n")
+print("NYERŐGÉP\n")
 
 print(choice(["arannyal        ", "keserűséggel    ", "hittel          "]),
       choice(["érkezik         ", "távozik         "]),
